@@ -24,6 +24,13 @@ $ cd vagrant
 $ cd tournament
 ```
 
+##Setting up the database
+to initialize the tournament database, the commands are inside the **tournament.sql** file, so we need to run 
+
+```
+psql -f tournament.sql
+```
+
 ##Modifying tournament.py
 In the **tournament.py** there are instructions in each module in order to success the test.
 
