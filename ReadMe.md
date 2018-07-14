@@ -7,7 +7,7 @@ Before using the program, is needed to install the following:
 Virtualbox : https://www.virtualbox.org/wiki/Downloads
 Vagrant: https://www.vagrantup.com/downloads
 
-##Fork and Cloning
+## Fork and Cloning
 The repository to fork and clone is in the following link: https://github.com/p00gz/udacity-swiss-tournament.git
 once is cloned into your machine, direct to the vagrant folder
 ```
@@ -15,7 +15,7 @@ $ cd udacity-swiss-tournament
 $ cd vagrant
 ```
 
-##Launching Vagrant
+## Launching Vagrant
 ```
 $ vagrant up   
 $ vagrant ssh
@@ -24,17 +24,17 @@ $ cd vagrant
 $ cd tournament
 ```
 
-##Setting up the database
+## Setting up the database
 to initialize the tournament database, the commands are inside the **tournament.sql** file, so we need to run 
 
 ```
 psql -f tournament.sql
 ```
 
-##Modifying tournament.py
+## Modifying tournament.py
 In the **tournament.py** there are instructions in each module in order to success the test.
 
-##Runing test
+## Runing test
 to check if the python file has all the requisites, we need to run
 ```
 $ python tournament_test.py
@@ -57,13 +57,13 @@ Success!  All tests pass!
 
 this means that the goal has been reached.
 
-##Closing Vagrant 
+## Closing Vagrant 
 to close vagrant and close
 ```
 $ vagrant halt
 ```
 
-##Licence
+## Licence
 
 read Licence
 
